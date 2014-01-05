@@ -7,7 +7,7 @@
 <meta name="viewport" content="initial-scale=1.0" />
 <style type="text/css">
 body {font:normal 100%/1.5 Tahoma,sans-serif;color:#444;margin:0;padding:0;background:#fcfcfc;text-align:start}
-section {padding:0 .5em}
+article {padding:0 .5em}
 p, ul, dl {margin: 0 auto 1.5em}
 a:link, a:visited {color:inherit}
 a:hover, a:active, a:focus {color:#d53360}
@@ -37,7 +37,7 @@ h1, .warn {color:#444}
 <meta name="apple-mobile-web-app-title" content="Pi Prompts">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <!--[if lt IE 9]>
-<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<script src="http://html5shiv-printshiv.googlecode.com/svn/trunk/html5shiv-printshiv.js"></script>
 <![endif]-->
 </head>
 <body>
@@ -47,40 +47,39 @@ h1, .warn {color:#444}
 	
 	<main>
 		<article role="main" class="limit-width center">
-			<section aria-labeledby="t-basic">
-				<h2 id="t-basic">Basic Commands</h2>
+			<section aria-labelledby="title-basic">
+				<h2 id="title-basic">Basic Commands</h2>
 				<dl>
-					<dt>startx</dt>
-					<dd>Access the Graphical User Interface (GUI) from the command prompt after the Pi has completed bootup.</dd>
+					<dt id="term-startx">startx</dt>
+					<dd role="definition" aria-labelledby="term-startx">Access the Graphical User Interface (GUI) from the command prompt after the Pi has completed bootup.</dd>
 					
-					<dt>sudo rasp-config</dt>
-					<dd>Open the Pi configuration panel. Here you can overclock, make screen changes etc.</dd>
+					<dt id="term-config">sudo rasp-config</dt>
+					<dd role="definition" aria-labelledby="term-config">Open the Pi configuration panel. Here you can overclock, make screen changes etc.</dd>
 					
-					<dt>sudo apt get update</dt>
-					<dd>Refresh the list of installed packages, so your Pi knows what is installed. <span class="warn"><em class="label">Important</em> Do this before performing an upgrade!</span></dd>
+					<dt id="term-update">sudo apt get update</dt>
+					<dd role="definition" aria-labelledby="term-update">Refresh the list of installed packages, so your Pi knows what is installed. <span class="warn"><em class="label">Important</em> Do this before performing an upgrade!</span></dd>
 					
-					<dt>sudo apt get upgrade</dt>
-					<dd>Perform an upgrade of the entire systems packages, collecting new files and their respective dependancies.</dd>
+					<dt id="term-upgrade">sudo apt get upgrade</dt>
+					<dd role="definition" aria-labelledby="term-upgrade">Perform an upgrade of the entire systems packages, collecting new files and their respective dependancies.</dd>
 					
-					<dt>top</dt>
-					<dd>Display real-time system info for all currently running programs.</dd>
+					<dt id="term-top">top</dt>
+					<dd role="definition" aria-labelledby="term-top">Display real-time system info for all currently running programs.</dd>
 					
-					<dt>clear</dt>
-					<dd>Clear the terminal.</dd>
+					<dt id="term-clear">clear</dt>
+					<dd role="definition" aria-labelledby="term-clear">Clear the terminal.</dd>
 	
-					<dt>man <em>examplecommand</em></dt>
-					<dd>Enter a command after <code>man</code> to show  instructions for that command.</dd>
+					<dt id="term-man">man <em>examplecommand</em></dt>
+					<dd role="definition" aria-labelledby="term-man">Enter a command after <code>man</code> to show  instructions for that command.</dd>
 	
-					<dt>sudo halt -h</dt>
-					<dd>Shutdown the Raspberry Pi.</dd>
+					<dt id="term-halt">sudo halt -h</dt>
+					<dd role="definition" aria-labelledby="term-halt">Shutdown the Raspberry Pi.</dd>
 				</dl>
 			</section>
-	
 		</article>
 	</main>
 	
 	<footer class="limit-width center">
-		<small class="footer" role="contentinfo"><a href="http://plfstr.github.io/pi-prompts">Pi Prompts</a> by <a href="http://github.com/plfstr">plfstr</a>, via GitHub.<br /> I accept no responsibility for time or data loss incurred as a result of referring to the above examples. Use is at your own risk.</small>
+		<small class="footer" role="contentinfo"><a href="http://plfstr.github.io/pi-prompts">Pi Prompts</a> by <a href="http://github.com/plfstr">Paul Foster</a>, via GitHub.<br /> I accept no responsibility for time or data loss incurred as a result of referring to the above examples. Use is at your own risk.</small>
 		<small class="footer">Raspberry Pi is a trademark of the Raspberry Pi Foundation.</small>
 	</footer>
 </body>
