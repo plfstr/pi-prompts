@@ -12,14 +12,14 @@ p, ul, dl {margin: 0 auto 1.5em}
 a:link, a:visited {color:inherit}
 a:hover, a:active, a:focus {color:#d53360}
 h1, h2, h3 {margin:0 auto;text-rendering:optimizeLegibility}
-h1 {font-size:2em;margin-bottom:.75em;text-align:center;background-color:#333;color:#d53360}
+h1 {font-size:2em;margin-bottom:.75em;text-align:center;background-color:#333;color:#E30B5C}
 h2 {margin-bottom:1em;border-bottom:.064em solid #ccc}
 dt, code {font-family:Monaco,monospace;display:inline-block;padding:0 .3em;background:#eee;border:.064em solid #ccc}
 dd {margin:0.5em 0 1em 1em}
 .limit-width {max-width:50em}
 .center {margin:0 auto 1.5em}
-.warn {color:#D53360}
-.label {display:inline-block;text-transform:uppercase;font-size:0.6em;padding:0.2em .5em;vertical-align:text-bottom;color:#fff;background:#d53360}
+.warn {color:#E30B5C}
+.label {display:inline-block;text-transform:uppercase;font-size:0.6em;padding:0.2em .5em;vertical-align:text-bottom;color:#fff;background:#E30B5C}
 .footer {text-align:center;display:block}
 
 @-ms-viewport{
@@ -42,7 +42,7 @@ h1, .warn {color:#444}
 </head>
 <body>
 	<header role="banner">
-		<h1>Pi Prompts</h1>
+		<h1 translate="no">Pi Prompts</h1>
 	</header>
 	
 	<main>
@@ -50,28 +50,28 @@ h1, .warn {color:#444}
 			<section aria-labelledby="title-basic">
 				<h2 id="title-basic">Basic Commands</h2>
 				<dl>
-					<dt id="term-startx">startx</dt>
+					<dt id="term-startx" translate="no">startx</dt>
 					<dd role="definition" aria-labelledby="term-startx">Access the Graphical User Interface (GUI) from the command prompt after the Pi has completed bootup.</dd>
 					
-					<dt id="term-config">sudo rasp-config</dt>
+					<dt id="term-config" translate="no">sudo rasp-config</dt>
 					<dd role="definition" aria-labelledby="term-config">Open the Pi configuration panel. Here you can overclock, make screen changes etc.</dd>
 					
-					<dt id="term-update">sudo apt get update</dt>
-					<dd role="definition" aria-labelledby="term-update">Refresh the list of installed packages, so your Pi knows what is installed. <span class="warn"><em class="label">Important</em> Do this before performing an upgrade!</span></dd>
+					<dt id="term-update" translate="no">sudo apt get update</dt>
+					<dd role="definition" aria-labelledby="term-update">Refresh the list of installed packages, so your Pi knows what is installed. <span class="warn" role="note"><em class="label">Important</em> Do this before performing an upgrade!</span></dd>
 					
-					<dt id="term-upgrade">sudo apt get upgrade</dt>
+					<dt id="term-upgrade" translate="no">sudo apt get upgrade</dt>
 					<dd role="definition" aria-labelledby="term-upgrade">Perform an upgrade of the entire systems packages, collecting new files and their respective dependancies.</dd>
 					
-					<dt id="term-top">top</dt>
+					<dt id="term-top" translate="no">top</dt>
 					<dd role="definition" aria-labelledby="term-top">Display real-time system info for all currently running programs.</dd>
 					
-					<dt id="term-clear">clear</dt>
+					<dt id="term-clear" translate="no">clear</dt>
 					<dd role="definition" aria-labelledby="term-clear">Clear the terminal.</dd>
 	
-					<dt id="term-man">man <em>examplecommand</em></dt>
-					<dd role="definition" aria-labelledby="term-man">Enter a command after <code>man</code> to show  instructions for that command.</dd>
+					<dt id="term-man" translate="no">man <em>examplecommand</em></dt>
+					<dd role="definition" aria-labelledby="term-man">Enter a command after <code translate="no">man</code> to show  instructions for that command.</dd>
 	
-					<dt id="term-halt">sudo halt -h</dt>
+					<dt id="term-halt" translate="no">sudo halt -h</dt>
 					<dd role="definition" aria-labelledby="term-halt">Shutdown the Raspberry Pi.</dd>
 				</dl>
 			</section>
@@ -79,8 +79,8 @@ h1, .warn {color:#444}
 	</main>
 	
 	<footer class="limit-width center">
-		<small class="footer" role="contentinfo"><a href="http://plfstr.github.io/pi-prompts">Pi Prompts</a> by <a href="http://github.com/plfstr">Paul Foster</a>, via GitHub.<br /> I accept no responsibility for time or data loss incurred as a result of referring to the above examples. Use is at your own risk.</small>
-		<small class="footer">Raspberry Pi is a trademark of the Raspberry Pi Foundation.</small>
+		<small class="footer" role="contentinfo"><a href="http://plfstr.github.io/pi-prompts" translate="no">Pi Prompts</a> by <a href="http://github.com/plfstr" translate="no">Paul Foster</a>, via <span translate="no">GitHub</span>.<br /> I accept no responsibility for time or data loss incurred as a result of referring to the above examples. Use is at your own risk.</small>
+		<small class="footer"><span translate="no">Raspberry Pi</span> is a trademark of the <span translate="no">Raspberry Pi Foundation</span>.</small>
 	</footer>
 </body>
 </html>
