@@ -27,9 +27,9 @@ dd {margin:0.5em 0 1em 1em}
 }
 
 @media print {
-h1, .warn {color:#444}
+h1, .warn, .label {color:#444;text-align:start}
 .warn {font-style:italic}
-.label {border:1px dashed #000}
+.label {border:1px dashed #888}
 }
 </style>
 <meta name="mobile-web-app-capable" content="yes">
@@ -72,7 +72,7 @@ h1, .warn {color:#444}
 					<dd role="definition" aria-labelledby="term-man">Enter a command after <code translate="no">man</code> to show  instructions for that command.</dd>
 	
 					<dt id="term-halt" translate="no">sudo halt -h</dt>
-					<dd role="definition" aria-labelledby="term-halt">Shutdown the Raspberry Pi.</dd>
+					<dd role="definition" aria-labelledby="term-halt">Shutdown the <span translate="no">Raspberry Pi</span>.</dd>
 				</dl>
 			</section>
 		</article>
