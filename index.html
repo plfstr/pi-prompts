@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" manifest="piprompts.appcache">
 <head>
 <meta charset="utf-8">
 <title>Pi Prompts - Basic system commands to help prompt new Pi users</title>
 <meta name="description" content="Pi Prompts - Basic system commands for new Raspberry Pi users to refer to">
 <meta name="viewport" content="initial-scale=1.0" />
 <style type="text/css">
-body {font:normal 100%/1.5 Tahoma,sans-serif;color:#444;margin:0;padding:0;background:#fcfcfc;text-align:start}
+body {font:normal 100%/1.5 Tahoma,sans-serif;color:#444;margin:0;padding:0;background:#fcfcfc;text-rendering:optimizeLegibility;text-align:start}
 article {padding:0 .5em}
 p, ul, dl {margin: 0 auto 1.5em}
 a:link, a:visited {color:inherit}
 a:hover, a:active, a:focus {color:#d53360}
-h1, h2, h3 {margin:0 auto;text-rendering:optimizeLegibility}
+h1, h2 {margin:0 auto}
 h1 {font-size:2em;margin-bottom:.75em;text-align:center;background-color:#333;color:#E30B5C}
 h2 {margin-bottom:1em;border-bottom:.064em solid #ccc}
 dt, code {font-family:Monaco,monospace;display:inline-block;padding:0 .3em;background:#eee;border:.064em solid #ccc}
@@ -20,7 +20,7 @@ dd {margin:0.5em 0 1em 1em}
 .center {margin:0 auto 1.5em}
 .warn {color:#E30B5C}
 .label {display:inline-block;text-transform:uppercase;font-size:0.6em;padding:0.2em .5em;vertical-align:text-bottom;color:#fff;background:#E30B5C}
-.footer {text-align:center;display:block}
+.footer {text-align:center;display:block;padding:.5em}
 
 @-ms-viewport{
 	width:device-width;
@@ -36,6 +36,7 @@ h1, .warn, .label {color:#444;text-align:start}
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Pi Prompts">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="shortcut icon" sizes="128x128" href="apple-touch-icon-precomposed.png">
 <!--[if lt IE 9]>
 <script src="http://html5shiv-printshiv.googlecode.com/svn/trunk/html5shiv-printshiv.js"></script>
 <![endif]-->
