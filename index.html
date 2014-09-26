@@ -14,7 +14,7 @@ a:hover, a:active, a:focus {color:#d53360}
 h1, h2 {margin:0 auto}
 h1 {font-size:2em;margin-bottom:.75em;text-align:center;background-color:#333;color:#E30B5C}
 h2 {margin-bottom:1em;border-bottom:.064em solid #ccc}
-dt, code {font-family:Monaco,monospace;display:inline-block;padding:0 .3em;background:#eee;border:.064em solid #ccc}
+kbd {font-family:'Andale Mono',Monaco,Consolas,monospace;display:inline-block;padding:0 .3em;background:#eee;border:.064em solid #ccc}
 dd {margin:0.5em 0 1em 1em}
 .limit-width {max-width:50em}
 .center {margin:0 auto 1.5em}
@@ -36,12 +36,12 @@ h1, .warn, .label {color:#444;text-align:start}
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Pi Prompts">
 <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
+<meta name="application-name" content="Pi Prompts"/>
 <meta name="msapplication-TileColor" content="#E30B5C">
 <meta name="msapplication-TileImage" content="win8icon-144x144.png">
 <meta name="msapplication-navbutton-color" content="#E30B5C"/>
 <meta name="msapplication-tooltip" content="Prompts for Raspberry Pi"/>
 <link rel="shortcut icon" sizes="128x128" href="apple-touch-icon-precomposed.png">
-<link rel="kik-icon" href="apple-touch-icon-precomposed.png">
 <link rel="canonical" href="http://plfstr.github.io/pi-prompts/">
 <!--[if lt IE 9]>
 <script src="//html5shiv-printshiv.googlecode.com/svn/trunk/html5shiv-printshiv.js"></script>
@@ -57,28 +57,28 @@ h1, .warn, .label {color:#444;text-align:start}
 			<section aria-labelledby="title-basic">
 				<h2 id="title-basic">Basic Commands</h2>
 				<dl>
-					<dt id="term-startx" translate="no">startx</dt>
+					<dt id="term-startx" translate="no"><kbd>startx</kbd></dt>
 					<dd role="definition" aria-labelledby="term-startx">Access the Graphical User Interface (GUI) from the command prompt after the Pi has completed bootup.</dd>
 					
-					<dt id="term-config" translate="no">sudo rasp-config</dt>
+					<dt id="term-config" translate="no"><kbd>sudo rasp-config</kbd></dt>
 					<dd role="definition" aria-labelledby="term-config">Open the Pi configuration panel. Here you can overclock, make screen changes etc.</dd>
 					
-					<dt id="term-update" translate="no">sudo apt get update</dt>
+					<dt id="term-update" translate="no"><kbd>sudo apt get update</kbd></dt>
 					<dd role="definition" aria-labelledby="term-update">Refresh the list of installed packages, so your Pi knows what is installed. <span class="warn" role="note"><em class="label">Important</em> Do this before performing an upgrade!</span></dd>
 					
-					<dt id="term-upgrade" translate="no">sudo apt get upgrade</dt>
+					<dt id="term-upgrade" translate="no"><kbd>sudo apt get upgrade</kbd></dt>
 					<dd role="definition" aria-labelledby="term-upgrade">Perform an upgrade of the entire systems packages, collecting new files and their respective dependancies.</dd>
 					
-					<dt id="term-top" translate="no">top</dt>
+					<dt id="term-top" translate="no"><kbd>top</kbd></dt>
 					<dd role="definition" aria-labelledby="term-top">Display real-time system info for all currently running programs.</dd>
 					
-					<dt id="term-clear" translate="no">clear</dt>
+					<dt id="term-clear" translate="no"><kbd>clear</kbd></dt>
 					<dd role="definition" aria-labelledby="term-clear">Clear the terminal.</dd>
 	
-					<dt id="term-man" translate="no">man <em>examplecommand</em></dt>
-					<dd role="definition" aria-labelledby="term-man">Enter a command after <code translate="no">man</code> to show  instructions for that command.</dd>
+					<dt id="term-man" translate="no"><kbd>man <i>examplecommand</i></kbd></dt>
+					<dd role="definition" aria-labelledby="term-man">Enter a command after <kbd translate="no">man</kbd> to show  instructions for that command.</dd>
 	
-					<dt id="term-halt" translate="no">sudo halt -h</dt>
+					<dt id="term-halt" translate="no"><kbd>sudo halt -h</kbd></dt>
 					<dd role="definition" aria-labelledby="term-halt">Shutdown the <span translate="no">Raspberry Pi</span>.</dd>
 				</dl>
 			</section>
