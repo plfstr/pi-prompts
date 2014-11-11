@@ -1,0 +1,26 @@
+{
+  "name": "Pi Prompts - Basic system commands to help prompt new Pi users",
+  "short_name" : "Pi Prompts",
+  "icons": [
+    {
+      "src": "icon-128x128.png",
+      "sizes": "64",
+      "type": "image/png",
+      "density": "1.5"
+    },
+    {
+      "src": "icon-128x128.png",
+      "sizes": "64",
+      "type": "image/png",
+      "density": "2.0"
+    },
+    {
+      "src": "icon-128x128.png",
+      "sizes": "128",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "index.html",
+  "display": "standalone",
+  "orientation": "portrait"
+}
