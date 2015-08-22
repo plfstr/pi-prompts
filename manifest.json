@@ -6,13 +6,13 @@
       "src": "icon-128x128.png",
       "sizes": "64",
       "type": "image/png",
-      "density": "1.5"
+      "density": 1.5
     },
     {
       "src": "icon-128x128.png",
       "sizes": "64",
       "type": "image/png",
-      "density": "2.0"
+      "density": 2.0
     },
     {
       "src": "icon-128x128.png",
