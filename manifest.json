@@ -6,12 +6,6 @@
       "src": "icon-128x128.png",
       "sizes": "64",
       "type": "image/png",
-      "density": 1.5
-    },
-    {
-      "src": "icon-128x128.png",
-      "sizes": "64",
-      "type": "image/png",
       "density": 2.0
     },
     {
@@ -22,5 +16,7 @@
   ],
   "start_url": "index.html",
   "display": "standalone",
-  "orientation": "portrait"
+  "orientation": "portrait",
+  "theme_color": "#E30B5C",
+  "background_color": "#E30B5C"
 }
